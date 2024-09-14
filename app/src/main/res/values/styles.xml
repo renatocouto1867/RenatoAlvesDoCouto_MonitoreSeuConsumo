@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilo para alterar a cor da borda do TextInputLayout -->
+    <style name="CustomTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primaryColor</item> <!-- Cor da borda quando em foco -->
+        <item name="boxBackgroundColor">@color/gray_50</item> <!-- Cor do fundo -->
+        <item name="hintTextColor">@color/primaryColor</item> <!-- Cor do texto de dica (hint) -->
+        <item name="android:textColorHint">#8C8C8C</item> <!-- Cor do texto da dica (hint) quando não em foco -->
+        <item name="boxStrokeErrorColor">#FF0000</item> <!-- Cor da borda em caso de erro -->
+    </style>
+
+    <style name="CustonButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="CustonButtonSecundario" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:background">@color/backgroundColor</item>
+    </style>
+
+    <style name="RotuloConsumo" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="CustonButtonRelatorio" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">165dp</item>
+        <item name="android:layout_height">165dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:elevation="10dp"
+    android:background="@color/primaryColor"
+    >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/gotas_de_agua_br"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/economize_agua"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"/>
+
+
+</androidx.appcompat.widget.Toolbar>

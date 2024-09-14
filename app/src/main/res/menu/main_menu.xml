@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_nova_Residencia"
+        android:title="@string/nova_residencia" />
+    <item
+        android:id="@+id/menu_List_residencia"
+        android:title="@string/lista_residencias" />
+
+    <item
+        android:id="@+id/menu_sair"
+        android:title="@string/sair" />
+</menu>

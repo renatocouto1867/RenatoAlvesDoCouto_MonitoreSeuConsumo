@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RenatoAlvesDoCouto_MonitoreSeuConsumo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionOverflowButtonStyle">@style/StyleToolbar</item>S
+    </style>
+
+    <style name="Theme.RenatoAlvesDoCouto_MonitoreSeuConsumo" parent="Base.Theme.RenatoAlvesDoCouto_MonitoreSeuConsumo" />
+
+    <!--Muda a cor do botão de menu-->
+    <style name="StyleToolbar" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+</resources>
